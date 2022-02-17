@@ -11,6 +11,7 @@ class _homepageState extends State<homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
      body: CustomScrollView(
      slivers: [
        SliverAppBar(
@@ -27,6 +28,7 @@ class _homepageState extends State<homepage> {
        )
      ],
       ),
+
     );
   }
 }
